@@ -441,7 +441,8 @@ html, body {
     }
 
     .navbar-brand {
-        margin-left: 50px !important; 
+        margin-left: 50px !important;
+        font-size: 20px !important; 
     }
 
     .navbar-toggler {
@@ -453,19 +454,38 @@ html, body {
         font-size: 12px;
     }
 
+    .emotion{
+        font-size: smaller;
+    }
+
     .stats-box{
-        height: 200px;
-        width: 200px;
+        height: 160px;
+        width: 160px;
+    }
+    .stats-box h2{
+        font-size: 25px;
+    }
+    .stats-box p{
+        font-size: 20px;
     }
 
     .card{
-        height: 70px;
-        width: 200px;
+        height: 50px;
+        width: 160px;
         gap: 5px;
     }
 
+    .avail{
+        font-size: 16px !important;
+    }
+
+    .cities p{
+        font-size: 20px;
+    }
+
     .veiwMore{
-        margin-right: 30%;
+        height: 50px;
+        width: 150px;
     }
 
     .slider-track {
@@ -484,9 +504,9 @@ html, body {
     }
 
     .review{
-        height: 20px;
-        width: 200px;
-        font-size: 14px;
+        height: 30px;
+        width: 160px;
+        font-size: 10px;
     }
 
     .copyright , .terms{
@@ -517,4 +537,3 @@ html, body {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
