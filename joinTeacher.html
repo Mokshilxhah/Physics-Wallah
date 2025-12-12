@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Application Form</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 850px;
+            background: #fff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 32px;
+            font-weight: 600;
+            color: #1a237e;
+        }
+
+        .subtitle {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        form .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: 500;
+            margin-bottom: 6px;
+            display: block;
+            color: #333;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            outline: none;
+            font-size: 15px;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: #3c13cd;
+            box-shadow: 0 0 10px rgba(26, 35, 126, 0.3);
+        }
+
+        .two-col {
+            display: flex;
+            gap: 20px;
+        }
+
+        .two-col .input-group {
+            flex: 1;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            background: #1a237e;
+            color: white;
+            font-size: 18px;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Teacher Application Form</h1>
+        <p class="subtitle">❛❛ Every great future begins with a great Teacher ❜❜</p>
+
+        <form>
+            <h2 style="margin-bottom: 15px; color:#1a237e;">Personal Details</h2>
+
+            <div class="two-col">
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter full name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Date of Birth</label>
+                    <input type="date" required>
+                </div>
+            </div>
+
+            <div class="two-col">
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="Enter phone number" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Address</label>
+                <textarea rows="3" placeholder="Enter full address"></textarea>
+            </div>
+
+            <h2 style="margin-top: 30px; margin-bottom: 15px; color:#1a237e;">Professional Details</h2>
+            <div class="two-col">
+                <div class="input-group">
+                    <label>Highest Qualification</label>
+                    <select required>
+                        <option value="">Select</option>
+                        <option>B.Ed</option>
+                        <option>M.Ed</option>
+                        <option>PhD</option>
+                        <option>Graduate</option>
+                        <option>Post Graduate</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Total Teaching Experience</label>
+                    <select required>
+                        <option value="">Select</option>
+                        <option>0 - 1 years</option>
+                        <option>1 - 3 years</option>
+                        <option>3 - 5 years</option>
+                        <option>5+ years</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Subjects You Can Teach</label>
+                <input type="text" placeholder="e.g., Mathematics, Physics, Chemistry">
+            </div>
+
+            <div class="input-group">
+                <label>Upload Resume (PDF only)</label>
+                <input type="file" accept="application/pdf" required>
+            </div>
+
+            <div class="input-group">
+                <label>Why Should We Select You?</label>
+                <textarea rows="4" placeholder="Write a brief explanation..."></textarea>
+            </div>
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
