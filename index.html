@@ -27,7 +27,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-4 align-items-center">
+                <ul class="navbar-nav ms-4 justify-content-right">
                 <li class="nav-item dropdown mega-dropdown">
                     <a class="nav-link dropdown-toggle mega-btn" href="#" data-bs-toggle="dropdown"
                     style="font-size: 20px; font-weight: 700;"> All Courses </a>
@@ -36,42 +36,41 @@
             <div class="dropdown-menu mega-menu p-4">
                 <div class="row">
                     <div class="col-4 border-end">
+                        <h6 class="mega-title">School Prep
+                            <p>Foundation (Class 9-12)</p>
+                        </h6>
+                        
                         <h6 class="mega-title">State Boards
-                            <p>CBSE Arts, CBSE Science, CBSE Commerce, ICSE, Rajasthan Board, MP Board, Maharashtra Board,
-                               Odisha Board, Tamil Nadu Board, Karnataka Board, Telangana Board.
+                            <p>CBSE Science, CBSE Commerce, ICSE, Rajasthan Board, MP Board, Maharashtra Board,
+                               Gujrat Board, Delhi Board, Karnataka Board, Telangana Board.
                             </p>   
                         </h6>
 
                         <h6 class="mega-title">Competitive Exams
-                            <p>IIT JEE, NEET, ESE, GATE, AE/JE, Olympiad</p>
-                        </h6>
-
-                        <h6 class="mega-title">School Prep
-                            <p>Foundation (Class 6-10), CuriousJr (3rd - 8th)</p>
+                            <p>IIT JEE, NEET</p>
                         </h6><br>
+
                         <h3>----- Upcoming -----</h3>
-                        <h6 class="mega-title">IAS</h6>
-                        <h6 class="mega-title">Govt Exams</h6>
-                        <h6 class="mega-title">UG & PG Entrance Exam</h6>
-                        <h6 class="mega-title">Finance</h6>
+                        <p style="font-size: 18px; font-weight: 500;">
+                            CuriousJr (3rd - 8th) , Olympiad , IAS , Govt Exams , Finance , UG & PG Entrance Exam
+                        </p>
                     </div>
 
                     <div class="col-8">
-                        <div class="mega-box">IIT JEE</div>
-                        <div class="mega-box">NEET</div>
-                        <div class="mega-box">GATE</div>
-                        <div class="mega-box">ESE</div>
-                        <div class="mega-box">AE/JE</div>
-                        <div class="mega-box">Olympiad</div>
+                        <div class="mega-box"><a href="courses.html">IIT JEE</a></div>
+                        <div class="mega-box"><a href="courses.html">NEET</a></div>
+                        <div class="mega-box"><a href="courses.html">Class 9th</a></div>
+                        <div class="mega-box"><a href="courses.html">Class 10th</a></div>
+                        <div class="mega-box"><a href="courses.html">Class 11th</a></div>
+                        <div class="mega-box"><a href="courses.html">Class 12th</a></div>
                     </div>
                 </div>
             </div>
             </li>
-                <li class="nav-item ms-3"><a class="nav-link" href="#" style="font-size: 20px; font-weight: 700;">Notes</a></li>
-                <li class="nav-item ms-3"><a class="nav-link" href="#" style="font-size: 20px; font-weight: 700;">Centers</a></li>
+                <li class="nav-item ms-3"><a class="nav-link" href="#centers" style="font-size: 20px; font-weight: 700;">Centers</a></li>
                 <li class="nav-item ms-3"><a class="nav-link" href="#" style="font-size: 20px; font-weight: 700;">Ncert-Solutions</a></li>
-                <li class="nav-item ms-3"><a class="nav-link" href="#" style="font-size: 20px; font-weight: 700;">Power Test</a></li>
-                <li class="nav-item ms-3"><a class="nav-link" href="#" style="font-size: 20px; font-weight: 700;">Results</a></li>
+                <li class="nav-item ms-3"><a class="nav-link" href="#results" style="font-size: 20px; font-weight: 700;">Results</a></li>
+                <li class="nav-item ms-3"><a class="nav-link" href="joinTeacher.html" style="font-size: 20px; font-weight: 700;">Join Us</a></li>
                 </ul>
             </div>
 
@@ -85,9 +84,9 @@
     <!-- ========================= End Of Navbar =========================================== -->
 
     <div class="banner">
-        <img src="images/brand.png" class="banner-img" alt="Banner">
+        <img src="C:\Users\Moksh\Desktop\brand.png" class="banner-img" alt="Banner">
         <div class="banner-content">
-            <button class="getStart"><a href="#">Get Started</a></button>
+            <button class="getStart"><a href="login.html">Get Started</a></button>
         </div>
     </div>
 
@@ -197,7 +196,7 @@
 
     <div class="container-fluid">
     <div class="container">
-        <h2 style="text-align: center; font-weight: 700;margin-top: 3%;">Find Centre in your City</h2>
+        <h2 style="text-align: center; font-weight: 700;margin-top: 3%;" id="centers">Find Centre in your City</h2>
         <h5 class="avail" style="font-size: 22px; text-align:center;">------------ Available Across 30+ Cities ---------------</h5>
 
             <div class="row row-cols-3 row-cols-md-5 g-4 justify-content-center">
@@ -239,7 +238,7 @@
 
     <!-- ========================= End Of Centers =========================================== -->
 
-    <div class="full-slider-section">
+    <div class="full-slider-section" id="results">
         <h1 style="text-align:center; font-size:2.5rem; margin-bottom:30px;"> Our Acedamic Results </h1>
         <div class="slider">
             <div class="slider-track">
@@ -319,10 +318,10 @@
                         <img src="images/user1.png" class="review-img">
                         <p style="font-size: 14px;"> 
                             <div class="stars">★★★★★</div><br>
-                            The Platform helped me build strong fundamentals in every subject, which allowed me to improve 
+                            ❛❛ The Platform helped me build strong fundamentals in every subject, which allowed me to improve 
                             rapidly and handle even tough questions with accuracy. The consistent practice sessions, mock tests, and 
                             quick revisions strengthened my speed, while the guidance from the mentors kept me on the right track. Step by 
-                            step, I noticed a big difference in my problem-solving abilities and overall discipline. 
+                            step, I noticed a big difference in my problem-solving abilities and overall discipline. ❜❜ 
                         </p>
                     </div>
                 </div>
@@ -333,10 +332,10 @@
                         <img src="images/user2.png" class="review-img">
                         <p style="font-size: 14px;">
                             <div class="stars">★★★★★</div><br> 
-                            The guidance I received helped me build a strong foundation, especially in the subjects 
+                            ❛❛ The guidance I received helped me build a strong foundation, especially in the subjects 
                             I once feared. The mentors made every topic feel approachable and never let me lose confidence, even during my lowest 
                             phases of preparation. Step by step, I started seeing improvement—not just in my marks, but also in my mindset. 
-                            Looking back, the support and consistency I gained here played the biggest role in turning my dream into reality.
+                            Looking back, the support and consistency I gained here played the biggest role in turning my dream into reality. ❜❜
                         </p> 
                     </div>
                 </div>
@@ -347,11 +346,11 @@
                         <img src="images/user3.png" class="review-img">
                         <p style="font-size: 14px;"> 
                             <div class="stars">★★★★</div><br>
-                            When I started learning, I felt completely overwhelmed by new concepts. 
+                            ❛❛ When I started learning, I felt completely overwhelmed by new concepts. 
                             But the explanations were so beginner-friendly and encouraging that I slowly began enjoying the 
                             entire process. Small achievements started building my confidence, and over time, I could actually
                             see myself growing. The journey changed the way I approach problems, and today I feel proud of 
-                            how far I’ve come—all thanks to the patient guidance and constant motivation I received.
+                            how far I’ve come—all thanks to the patient guidance and constant motivation I received. ❜❜
                         </p>  
                     </div>
                 </div>
@@ -362,10 +361,10 @@
                         <img src="images/user4.png" class="review-img">
                         <p style="font-size: 14px;"> 
                             <div class="stars">★★★★</div><br>
-                            During a phase when I was unsure about my path, the clarity and guidance I found here gave me
+                            ❛❛ During a phase when I was unsure about my path, the clarity and guidance I found here gave me
                             a sense of direction. Every session felt like a push toward becoming a better version of myself.
                             More than just learning, it helped me rebuild my confidence, stay disciplined, and trust my abilities 
-                            again. The transformation I experienced—academically and emotionally—made this journey truly unforgettable.
+                            again. The transformation I experienced—academically and emotionally—made this journey truly unforgettable. ❜❜
                         </p>
                     </div>
                 </div>
@@ -476,6 +475,4 @@
         </div>
     </footer>
 </body>
-
 </html>
-
